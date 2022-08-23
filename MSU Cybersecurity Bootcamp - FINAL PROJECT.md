@@ -277,14 +277,14 @@ Inspect your traffic to answer the following questions:
 - What is the username of the Windows user whose computer is infected?
  	- Going through all the packets that used Kerberos (port 88). Eventualy we found one with a name: matthijs.devries   
 
-![](network-username.jpg)   
+![](network-username.jpg)
 
 - What are the IP addresses used in the actual infection traffic?
     - 172.16.4.205 and 185.243.115.84. There is an unusually large amount of traffic between these two. The infection is probably between these two hosts.<br> 
 
-![](network-packetcount.jpg) 
+![](network-packetcount.jpg)
 
 - As a bonus, retrieve the desktop background of the Windows host.   <br>
 
-![](network-finding_wallpaper2.jpg)   
+![](network-finding_wallpaper2.jpg)  
 ![](network-bird2.jpg)   
