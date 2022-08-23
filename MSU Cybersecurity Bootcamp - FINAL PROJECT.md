@@ -286,5 +286,5 @@ Inspect your traffic to answer the following questions:
 
 - As a bonus, retrieve the desktop background of the Windows host.   <br>
 
-![](network-finding_wallpaper.jpg)   
+![](network-finding_wallpaper2.jpg)   
 ![](network-bird2.jpg)   
