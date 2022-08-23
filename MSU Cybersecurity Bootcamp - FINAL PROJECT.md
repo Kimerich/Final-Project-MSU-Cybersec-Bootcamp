@@ -254,24 +254,32 @@ You must inspect your traffic capture to answer the following questions:
 - Upload the file to VirusTotal.com. What kind of malware is this classified as?
     - Trojan
 
-
 ## Vulnerable Windows Machines
-
 The Security team received reports of an infected Windows host on the network. They know the following:
 - Machines in the network live in the range 172.16.4.0/24.
 - The domain mind-hammer.net is associated with the infected computer.
 - The DC for this network lives at 172.16.4.4 and is named Mind-Hammer-DC.
 - The network has standard gateway and broadcast addresses.
-- 
+
 Inspect your traffic to answer the following questions:
+- Find the following information about the infected Windows machine:
+    - Host name: Rotterdamn-PC
+    - IP address: 172.16.4.205
+    - MAC address:00:59:07:b0:63:a4   
+       
+![](network-packet1.jpg)
 
-1. Find the following information about the infected Windows machine:
-   - Host name:Rotterdamn-PC
-2. IP address: 172.16.4.205
-   - MAC address:00:59:07:b0:63:a4
-3. What is the username of the Windows user whose computer is infected?
-   - matthijs.devries
-4. What are the IP addresses used in the actual infection traffic?
-    - 172.16.4.205 and 185.243.115.84
+- What is the username of the Windows user whose computer is infected?
+ 	- Going through all the packets that used Kerberos (port 88). Eventualy we found one with a name: matthijs.devries   
 
-As a bonus, retrieve the desktop background of the Windows host.
+![](network-username.jpg)   
+
+- What are the IP addresses used in the actual infection traffic?
+    - 172.16.4.205 and 185.243.115.84. There is an unusually large amount of traffic between these two. The infection is probably between these two hosts.<br> 
+
+![](network-packetcount.jpg) 
+
+- As a bonus, retrieve the desktop background of the Windows host.   <br>
+
+![](network-finding_wallpaper.jpg)   
+![](network-bird2.jpg)   
