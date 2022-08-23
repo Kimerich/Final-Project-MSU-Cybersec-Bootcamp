@@ -272,7 +272,7 @@ Inspect your traffic to answer the following questions:
     - IP address: 172.16.4.205
     - MAC address:00:59:07:b0:63:a4   
        
-![](network-packet1.jpg)
+![](network-packet1.JPG)
 
 - What is the username of the Windows user whose computer is infected?
  	- Going through all the packets that used Kerberos (port 88). Eventualy we found one with a name: matthijs.devries   
