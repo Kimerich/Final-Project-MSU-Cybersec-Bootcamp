@@ -251,8 +251,13 @@ You must inspect your traffic capture to answer the following questions:
 - What is the name of the malware downloaded to the 10.6.12.203 machine? Once you have found the file, export it to your Kali machine's desktop.
     - june11.dll
 
+![](network-june11.jpg)
+
 - Upload the file to VirusTotal.com. What kind of malware is this classified as?
-    - Trojan
+Trojan<br>
+
+![](virustotal-june11a.jpg)
+![](virustotal-june11b.jpg)   
 
 ## Vulnerable Windows Machines
 The Security team received reports of an infected Windows host on the network. They know the following:
