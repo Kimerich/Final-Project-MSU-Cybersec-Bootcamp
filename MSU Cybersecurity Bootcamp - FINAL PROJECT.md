@@ -90,11 +90,11 @@ HTTP Request Size Monitor is implemented as follows:
 Reliability: This alert doesn’t generate excessive amounts of false positives because DDOS attacks submit requests within seconds, not within minutes.  The reliability is at low.   
 <br>
 
-![](http_size_alert_setup.jpg)   
+![](http_size_alert_setup.JPG)   
 
 > This is **NOT** a good alert. According to the information we were given we should see 10 HTTP requests per second and HTTP requests are about 350 bytes in size. 10 requests/sec * 60 sec/min * 350 bytes/request. That calculates to 21000 bytes/min. That is 60 times larger than the threshold. This will cause alert fatigue in the SOC. 28000 bytes per minute would be a better threshold. That is ⅓ higher than normal traffic. If you look at the graphic below you will see there is an alert **EVERY MINUTE.**   
 <br>
-![HTTP Size Alert](http_size_alert.jpg "Alert is triggered each minute") 
+![HTTP Size Alert](http_size_alert.JPG "Alert is triggered each minute") 
 
 
 #### Excessive HTTP Errors   
