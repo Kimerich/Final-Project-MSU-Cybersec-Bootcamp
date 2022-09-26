@@ -113,7 +113,7 @@ Excessive HTTP Errors is implemented as follows:
   - WHEN max() OF system.process.cpu.total.pct OVER all documents IS ABOVE 0.5 FOR THE LAST 5 minutes
 Vulnerability Mitigated: 
 - Reliability: This alert has a low reliability. There are many reasons that the CPU usage may rise to a high level and it is not always malicious.  For example, updates and patches are being applied to the machine causing a spike in CPU usage or you are having heavier than normal (but proper) traffic.
-<br>   
+
 ![](cpu_usage_alert.jpg)   
 
 # Red Team Operations
