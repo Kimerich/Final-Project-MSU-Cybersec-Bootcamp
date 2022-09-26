@@ -11,7 +11,6 @@ The following alerts will be created and implemented.
 
     ``` WHEN count() GROUPED OVER top 5 'http.response.status_code' IS ABOVE 400 FOR THE LAST 5 minutes ```
 
-  
 - **HTTP Request Size Monitor**   
   - Select the **packetbeat** indice
 
@@ -88,7 +87,6 @@ HTTP Request Size Monitor is implemented as follows:
   - WHEN sum() of http.request.bytes OVER all documents IS ABOVE 3500 FOR THE LAST 1 minute
 - Vulnerability Mitigated: Controlling the number of HTTP request sizes through a filter, protection is enabled to detect or prevent DDOS attacks. 
 Reliability: This alert doesn’t generate excessive amounts of false positives because DDOS attacks submit requests within seconds, not within minutes.  The reliability is at low.   
-<br>
 
 ![](http_size_alert_setup.JPG)   
 
