@@ -86,7 +86,7 @@ HTTP Request Size Monitor is implemented as follows:
 - Threshold: The sum of the requested bytes is over 3500 in 1 minute. 
   - WHEN sum() of http.request.bytes OVER all documents IS ABOVE 3500 FOR THE LAST 1 minute
 - Vulnerability Mitigated: Controlling the number of HTTP request sizes through a filter, protection is enabled to detect or prevent DDOS attacks. 
-Reliability: This alert doesn’t generate excessive amounts of false positives because DDOS attacks submit requests within seconds, not within minutes.  The reliability is at low.   
+- Reliability: This alert doesn’t generate excessive amounts of false positives because DDOS attacks submit requests within seconds, not within minutes.  The reliability is at low.   
 
 ![](http_size_alert_setup.JPG)   
 
