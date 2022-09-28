@@ -179,7 +179,7 @@ This is the website for 192.168.1.110:80 when viewed on a browser.
 <br><br>
 
 - They then went into the SQL database. 
-  - Using ***cd /var/www/html/wordpress/*** and ***cat wp-config.php*** they were able to read teh configuration file. And they were able to see the password is *R@v3nSecurity*
+  - Using ***cd /var/www/html/wordpress/*** and ***cat wp-config.php*** they were able to read the configuration file. And they were able to see the password is *R@v3nSecurity*
 ![](red-team-mysql.jpg)
 <br><br>
 
