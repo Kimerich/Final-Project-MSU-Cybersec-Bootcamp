@@ -34,27 +34,27 @@ The following machines were identified on the network:
   - Operating System: Linux
   - Purpose: Attacking machine
   - IP Address: 192.168.1.90  
-<br> 
+
 - Name of VM 2: Elk
   - Operating System:
   - Purpose: Gather information from victim machine using Metricbeat, Filebeat and Packetbeat
   - IP Address: 192.168.1.100   
-<br> 
+
 - Name of VM 3: Target 1
   - Operating System:
   - Purpose: WordPress as vulnerable server
   - IP Address:192.168.1.110   
-<br> 
+
 - Name of VM 4: Target 2
   - Operating System:
   - Purpose: WordPress as a vulnerable server (Note: This machine is not in play for this project)
   - IP Address: 192.168.1.115  
-<br> 
+
 - Name of VM 5: Capstone
   - Operating System: Linux (Ubuntu 18.04.1 LTS)
   - Purpose: Testing system for alerts
   - IP Address:192.168.1.105   
-<br> 
+
 - Name of VM 6: Hyper V Host Manager
   - Operating System: Windows 10 
   - Purpose: Contains the vulnerable and attacking machines
